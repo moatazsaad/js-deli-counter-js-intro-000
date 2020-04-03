@@ -18,4 +18,4 @@ function nowServing(katzDeliLine){
   return "Currently serving + x"
     // +`${katzDeliLine[0]}`)
   }
-}}
+}

@@ -1,15 +1,21 @@
-function takeANumber(currentline,name){
-  var i=0
-  // var katzDeliLine = []
-  while(i<currentline.length){
-    return (`Welcome, ${currentline[i]}. You are number ${i +1} in line`)
-
-i++
-  }
-}
-// function nowServing(katzDeliLine){
-//   var i=o
-// while (katzDeliLine.length>0){
-//   return
 //
+// function takeANumber(katzDeliLine,name){
+//   var i=0
+//
+//   katzDeliLine.push(name)
+//
+//     return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`)
+//
+
 // }
+function nowServing(katzDeliLine){
+  var i=0
+  if(katzDeliLine.length>0){
+  return "There is nobody waiting to be served!"}
+  else {
+    for(i=0;i<katzDeliLine.length;i++){
+
+      katzDeliLine.shift()
+  return katzDeliLine[0]
+  }
+}}
